@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Vazir;
+    src: url("/fonts/Vazir.eot");
+    src: url("/fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("/fonts/Vazir.woff") format("woff"), url("/fonts/Vazir.ttf") format("truetype");
+    font-weight: normal; }
+@font-face {
+    font-family: Vazir;
+    src: url("/fonts/Vazir-Bold.eot");
+    src: url("/fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Vazir-Bold.woff") format("woff"), url("/fonts/Vazir-Bold.ttf") format("truetype");
+    font-weight: bold; }
+@font-face {
+    font-family: Vazir;
+    src: url("/fonts/Vazir-Light.eot");
+    src: url("/fonts/Vazir-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Vazir-Light.woff") format("woff"), url("/fonts/Vazir-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: Vazir;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, span {
+    font-family: Vazir;
+}
+.navbar {
+    background-color: #dddddd;
+}
+.hero {
+    background-image: url('../images/hero_bg.png');
+}
+
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5 {
+    color: #e4e4e4;
+}
+
+.columns {
+    min-height: 400px;
+}
