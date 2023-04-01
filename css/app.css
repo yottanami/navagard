@@ -26,17 +26,29 @@ body {
 p, h1, h2, h3, h4, h5, h6, a, span {
     font-family: Vazir;
 }
-.navbar {
-    background-color: #dddddd;
+
+.navbar .bi, .navbar .navbar-brand {
+    font-size: 1.4em;
 }
+
+
 .hero {
     background-image: url('../images/hero_bg.png');
 }
 
+.applications img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
 .hero h1, .hero h2, .hero h3, .hero h4, .hero h5 {
     color: #e4e4e4;
 }
 
 .columns {
     min-height: 400px;
+}
+
+.player {
+    display: none;
 }
